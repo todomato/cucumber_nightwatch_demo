@@ -1,0 +1,71 @@
+[
+  {
+    "elements": [
+      {
+        "id": "demo-goole-搜尋;登入成功",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "登入成功",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "開啟瀏覽器，打開google頁面",
+            "result": {
+              "status": "passed",
+              "duration": 4019698844
+            },
+            "line": 5,
+            "match": {
+              "location": "日曆\\trunk\\PalaceCalendar\\PalaceCalendar.backend\\app\\testing\\features\\step_definitions\\demoStep.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "搜尋 \"100+500\"",
+            "result": {
+              "status": "passed",
+              "duration": 657082235
+            },
+            "line": 8,
+            "match": {
+              "location": "日曆\\trunk\\PalaceCalendar\\PalaceCalendar.backend\\app\\testing\\features\\step_definitions\\demoStep.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "結果顯示 \"600\"",
+            "result": {
+              "status": "passed",
+              "duration": 1030912873
+            },
+            "line": 9,
+            "match": {
+              "location": "日曆\\trunk\\PalaceCalendar\\PalaceCalendar.backend\\app\\testing\\features\\step_definitions\\demoStep.js:17"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "demo-goole-搜尋",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "demo goole 搜尋",
+    "tags": [
+      {
+        "name": "@demo",
+        "line": 1
+      }
+    ],
+    "uri": "c:\\Users\\dream\\Documents\\svn\\頑石 日曆\\trunk\\PalaceCalendar\\PalaceCalendar.backend\\app\\testing\\features\\demo.feature"
+  }
+]

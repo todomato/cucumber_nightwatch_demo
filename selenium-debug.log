@@ -1,0 +1,37 @@
+11:25:17.370 INFO - Launching a standalone Selenium Server
+11:25:17.534 INFO - Java: Oracle Corporation 24.55-b03
+11:25:17.534 INFO - OS: Windows 8.1 6.3 x86
+11:25:17.544 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+11:25:17.625 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:25:17.625 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+11:25:17.636 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{platform=MAC, browserName=safari, version=}] does not match the current platform WIN8_1
+11:25:17.637 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+11:25:17.637 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+11:25:17.843 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+11:25:17.843 INFO - Selenium Server is up and running
+11:25:18.376 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, phantomjs.binary.path=c:\Users\dream\Documents\svn\�x�� ����\trunk\PalaceCalendar\PalaceCalendar.backend\app\testing\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe}]])
+11:25:18.395 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, phantomjs.binary.path=c:\Users\dream\Documents\svn\�x�� ����\trunk\PalaceCalendar\PalaceCalendar.backend\app\testing\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe}]
+Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 13343
+Only local connections are allowed.
+11:25:20.662 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, phantomjs.binary.path=c:\Users\dream\Documents\svn\�x�� ����\trunk\PalaceCalendar\PalaceCalendar.backend\app\testing\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe}]]
+11:25:20.680 INFO - Executing: [get: http://www.google.com])
+11:25:22.109 INFO - Done: [get: http://www.google.com]
+11:25:22.118 INFO - Executing: [find elements: By.cssSelector: body])
+11:25:22.153 INFO - Done: [find elements: By.cssSelector: body]
+11:25:22.157 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (3c3c551bca9c312659d6f2ca5b628f9e)] -> css selector: body]])
+11:25:22.171 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (3c3c551bca9c312659d6f2ca5b628f9e)] -> css selector: body]]
+11:25:22.183 INFO - Executing: [find element: By.cssSelector: input[name=q]])
+11:25:22.200 INFO - Done: [find element: By.cssSelector: input[name=q]]
+11:25:22.205 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (3c3c551bca9c312659d6f2ca5b628f9e)] -> css selector: input[name=q]], [1, 0, 0, +, 5, 0, 0]])
+11:25:22.277 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (3c3c551bca9c312659d6f2ca5b628f9e)] -> css selector: input[name=q]], [1, 0, 0, +, 5, 0, 0]]
+11:25:22.783 INFO - Executing: [find element: By.cssSelector: input[name=q]])
+11:25:22.793 INFO - Done: [find element: By.cssSelector: input[name=q]]
+11:25:22.796 INFO - Executing: [submit: 1 [[ChromeDriver: chrome on WIN8_1 (3c3c551bca9c312659d6f2ca5b628f9e)] -> css selector: input[name=q]]])
+11:25:22.833 INFO - Done: [submit: 1 [[ChromeDriver: chrome on WIN8_1 (3c3c551bca9c312659d6f2ca5b628f9e)] -> css selector: input[name=q]]]
+11:25:23.342 INFO - Executing: [find element: By.cssSelector: body])
+11:25:23.449 INFO - Done: [find element: By.cssSelector: body]
+11:25:23.454 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on WIN8_1 (3c3c551bca9c312659d6f2ca5b628f9e)] -> css selector: body]])
+11:25:23.863 INFO - Done: [get text: 0 [[ChromeDriver: chrome on WIN8_1 (3c3c551bca9c312659d6f2ca5b628f9e)] -> css selector: body]]
+11:25:23.928 INFO - Executing: [delete session: 208b5831-2eb8-4c81-b461-3340b4b641ac])
+11:25:25.213 INFO - Done: [delete session: 208b5831-2eb8-4c81-b461-3340b4b641ac]
